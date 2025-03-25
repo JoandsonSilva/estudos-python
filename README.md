@@ -3,6 +3,7 @@
 Este repositório contém meus estudos e projetos em Python, focados no desenvolvimento back-end, automação e APIs.
 
 📖 Objetivos
+
 ✅ Aprender os fundamentos de Python
 ✅ Desenvolver pequenos projetos para fixação
 ✅ Criar APIs e explorar frameworks como Flask e Django
