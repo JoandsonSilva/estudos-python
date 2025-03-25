@@ -14,5 +14,8 @@ Este repositório contém meus estudos e projetos em Python, focados no desenvol
 📆 Início: Março/2025
 🎯 Tópico Atual: Bibliotecas
 
+![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=JoandsonSilva&layout=compact&theme=radical)  
+
+
 ⚡ Projetos Práticos
 🚀 Automação de Arquivos: Script para renomear e organizar arquivos automaticamente.
