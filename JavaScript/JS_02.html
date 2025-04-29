@@ -6,28 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+
+
     <button onclick="mostrarAlerta()"> Clique e receba uma surpresa </button>
+
+    <button onclick="mudarCor()">
+Altere a cor
+    </button>
 
     <script>
         function mostrarAlerta(){
             alert('Seja bem-vindo ao JavaScript!')
         }
+
+        function mudarCor(){
+            document.querySelector('body').style.backgroundColor = 'blue';
+        }
     </script>
-
-
-
-
-
-
-
-
-
-
-
-<!-- desafios:
-
+ Desafios:
 <p>Alterar o texto para o nome do aluno.<p>
-
-<p>Criar dois botões: um para "Bem-vindo" e outro para "Até logo".</p>-->
+<p>Criar dois botões: um para "Bem-vindo" e outro para "Até logo".</p>
 </body>
 </html>

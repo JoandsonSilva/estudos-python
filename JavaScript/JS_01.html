@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
 </head>
+
 <body>
-    
-   <h1> Enunciado </h1>
-<p>Crie um botão. Quando clicarmos nele, o fundo da página   muda de cor para roxo.</p>
 
-<button onclick="mudarCor()">Clique aqui</button>
+  <h1> Enunciado </h1>
+  <p>Crie um botão. Quando clicarmos nele, o fundo da página muda de cor para roxo.</p>
+  <button onclick="mudarCor()">Clique aqui</button>
+  <button onclick="mudardecor()">Mudar a cor</button>
+  <script>
+    function mudarCor() {
+      document.querySelector('body').style.backgroundColor = 'purple';
+    }
+    function mudardecor() {
+      document.querySelector('body').style.backgroundColor = 'blue';
+    }
+  </script>
 
-<script>
-function mudarCor() {
-    document.querySelector('body').style.backgroundColor = 'purple';
-  }
+  <p>Crie mais um botão e ele irá alterar a cor da página para outra cor</p>
 
-  
-</script>
-
-
-
-
-
-
-
-
-
-
-
-<!-- <p>Crie mais um botão e ele irá alterar a cor da página para outra cor</p>-->
- 
 
 
 
 
 
 </body>
+
 </html>
