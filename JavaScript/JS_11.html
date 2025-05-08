@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="number" id="salario" placeholder="Salário bruto">
+<input type="number" id="inss" placeholder="Desconto INSS (%)">
+<button onclick="calcular()">Calcular Salário Líquido</button>
+<p id="resultado"></p>
+
+<script>
+  function calcular() {
+    let salario = Number(document.getElementById('salario').value);
+    let inss = Number(document.getElementById('inss').value);
+    let desconto = salario * (inss / 100);
+    let liquido = salario - desconto;
+    document.getElementById('resultado').innerText = "Salário líquido: R$ " + liquido.toFixed(2);
+  }
+</script>
+
+
+
+</body>
+</html>
